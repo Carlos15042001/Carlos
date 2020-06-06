@@ -1,0 +1,110 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*background: #879DB4;*/
+  background: #0F1828;
+  font-family: Arial;
+}
+
+.menu {
+  /*display: grid;*/
+}
+
+ul {
+  /*background: red;*/
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+li {
+  /*background: gray;*/
+  list-style: none;
+  padding: 7px;
+}
+
+a {
+  /*color: #05432C;*/
+  /*color: #0C6D99;*/
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+.parte {
+  background-image: 
+  url("./Img/android-black-gold.png");
+  background-size: 92vw auto;
+  padding: 0px 0px 64px 0px;
+  border-radius: 2%;
+}
+
+.AB {
+  color: #CAFFF2;
+  text-align: center;
+  padding: 20px;
+  font-size: 2.5em;
+}
+
+.BC {
+  background: white;
+  text-align: center;
+  font-style: italic;
+  width: 95vw;
+}
+
+.CD {
+  color: white;
+}
+
+.imagens {
+  display: grid;
+  grid-template-columns: 204px 80px;
+}
+
+.foto1 {
+  margin: 25px 0px 0px 13px;
+  height: 100px;
+  width: 80px;
+  border-radius: 5%;
+}
+
+.foto2 {
+  margin: -10px 0px 0px 0px;
+  height: 100px;
+  width: 100px;
+  
+}
+
+.ler1 {
+  font-size: 7px;
+  margin: 0px 0px 0px 20px;
+  color: white;
+}
+
+.ler2 {
+  font-size: 7px;
+  margin: -20px 0px 0px 34px;
+  /*padding: 0px 40px 0px 40px;*/
+  /*border: 40px 40px 40px 40px;*/
+  color: white;
+}
+
+.testando {
+  /*background: darkgrey;*/
+  background-image: url("./Img/CYMERA_20180630_133640.jpg");
+  background-size: 100vw auto;
+  padding: 0px 0px 200px 0px;
+  border-radius: 2%;
+}
+
+
+
+
+
+
