@@ -38,7 +38,7 @@ a {
 
 .parte {
   background-image: 
-  url("./Img/android-black-gold.png");
+  url("../Img/android-black-gold.png");
   background-size: 92vw auto;
   padding: 0px 0px 64px 0px;
   border-radius: 2%;
@@ -97,7 +97,7 @@ a {
 
 .testando {
   /*background: darkgrey;*/
-  background-image: url("./Img/CYMERA_20180630_133640.jpg");
+  background-image: url("../Img/CYMERA_20180630_133640.jpg");
   background-size: 100vw auto;
   padding: 0px 0px 200px 0px;
   border-radius: 2%;
