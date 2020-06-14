@@ -4,27 +4,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: naruto;
+  src: url(./Font/njnaruto.ttf);
+}
+
+/*@font-face {
+  font-family: nova
+  src: url(./Font/);
+}*/
 body {
   /*background: #879DB4;*/
   background: #0F1828;
   font-family: Arial;
+  padding: 0px 1.5% 0px 1.5%;
 }
 
 .menu {
-  /*display: grid;*/
-}
-
-ul {
-  /*background: red;*/
-  display: flex;
-  justify-content: space-around;
-  padding: 5px;
-}
-
-li {
+  background: #0F1828;
   /*background: gray;*/
-  list-style: none;
-  padding: 7px;
+  display: grid;
+  grid-template-columns: 30vw 33vw 36vw;
+  text-align: center;
+  position: fixed;
+  padding: 1.5% 0% 1.5% 0%;
+}
+
+p {
+  /*border-radius: 0%;*/
+  /*background: gray;*/
+  /*padding: 0em 0em 0em 0em;*/
 }
 
 a {
@@ -32,58 +42,65 @@ a {
   /*color: #0C6D99;*/
   color: whitesmoke;
   text-decoration: none;
-  padding: 10px;
-  font-size: 1.1em;
+  padding: 5% 0em 5% 0em;
+  font-size: 1.2em;
+  /*background: gray;*/
 }
 
 .parte {
-  background-image: 
-  url("./Img/android-black-gold.png");
+  background-image:
+    url("./Img/360 black android.png");
   background-size: 92vw auto;
-  padding: 0px 0px 64px 0px;
+  /*background-size: 92vw 57vh;*/
+  padding: 0px 0px 11vh 0px;
   border-radius: 2%;
 }
 
 .AB {
   color: #CAFFF2;
   text-align: center;
-  padding: 20px;
+  padding: 1.3em 0px 0.4em 0px;
   font-size: 2.5em;
+  /*font-family: naruto;*/
+  font-family: nova2;
 }
 
 .BC {
   background: white;
   text-align: center;
   font-style: italic;
-  width: 95vw;
+  width: 100%;
 }
 
 .CD {
   color: white;
+  padding: 0px 0px 0px 1%;
 }
 
 .imagens {
   display: grid;
-  grid-template-columns: 204px 80px;
+  /*grid-template-columns: 204px 80px;*/
+  grid-template-columns: 70vw 20%;
 }
 
 .foto1 {
-  margin: 25px 0px 0px 13px;
+  /*padding: 12% 0px 0px 6%;*/
+  margin: 9% 0px 0px 6%;
   height: 100px;
   width: 80px;
   border-radius: 5%;
 }
 
 .foto2 {
-  margin: -10px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   height: 100px;
   width: 100px;
-  
+
 }
 
 .ler1 {
-  font-size: 7px;
-  margin: 0px 0px 0px 20px;
+  font-size: 45%;
+  margin: 0px 0px 0px 9.5%;
   color: white;
 }
 
@@ -97,14 +114,14 @@ a {
 
 .testando {
   /*background: darkgrey;*/
-  background-image: url("./Img/CYMERA_20180630_133640.jpg");
+  background-image: url("./Img/480 linhas.jpg");
   background-size: 100vw auto;
-  padding: 0px 0px 200px 0px;
+  padding: 0px 0px 50% 0px;
   border-radius: 2%;
 }
 
+.testando2 {
+  background: #173A44;
+  padding: 0px 0px 50% 0px;
 
-
-
-
-
+}
