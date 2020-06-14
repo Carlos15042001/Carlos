@@ -53,7 +53,7 @@ a {
   background-size: 92vw auto;
   /*background-size: 92vw 57vh;*/
   padding: 0px 0px 11vh 0px;
-  border-radius: 2%;
+
 }
 
 .AB {
@@ -75,6 +75,23 @@ a {
 .CD {
   color: white;
   padding: 0px 0px 0px 1%;
+}
+
+.DE {
+  background: #0F1828;
+  font-size: 1.1em;
+  color: white;
+  padding: 5% 0px 0px 1%;
+  margin: -6.1% 7.2% 0% 7%;
+}
+
+.EF {
+  background: #0F1828;
+  font-size: 1.1em;
+  color: white;
+  padding: 0% 0px 0px 1%;
+  margin: 0px 7.2% 0px 7%;
+
 }
 
 .imagens {
@@ -99,13 +116,13 @@ a {
 }
 
 .ler1 {
-  font-size: 45%;
+  font-size: 0.44em;
   margin: 0px 0px 0px 9.5%;
   color: white;
 }
 
 .ler2 {
-  font-size: 7px;
+  font-size: 0.44em;
   margin: -20px 0px 0px 34px;
   /*padding: 0px 40px 0px 40px;*/
   /*border: 40px 40px 40px 40px;*/
@@ -116,8 +133,16 @@ a {
   /*background: darkgrey;*/
   background-image: url("./Img/480 linhas.jpg");
   background-size: 100vw auto;
-  padding: 0px 0px 50% 0px;
-  border-radius: 2%;
+  /*padding: 0px 0px 50% 0px;*/
+  padding: 0px 0px 2% 0px;
+
+}
+
+iframe {
+  width: 90vw;
+  height: auto;
+  padding: 0px 0% 0px 7%;
+  /*background: red;*/
 }
 
 .testando2 {
